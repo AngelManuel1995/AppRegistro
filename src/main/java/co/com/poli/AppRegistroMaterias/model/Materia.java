@@ -10,11 +10,11 @@ public class Materia {
     
     private String idMateria;
     private String nombre;
-    private String numCreditos;
-    private int cupoMin;
-    private int cupoMax;
+    private double numCreditos;
+    private double cupoMin;
+    private double cupoMax;
 
-    public Materia(String idMateria, String nombre, String numCreditos, int cupoMin, int cupoMax) {
+    public Materia(String idMateria, String nombre, double numCreditos, double cupoMin, double cupoMax) {
         this.idMateria = idMateria;
         this.nombre = nombre;
         this.numCreditos = numCreditos;
@@ -38,27 +38,27 @@ public class Materia {
         this.nombre = nombre;
     }
 
-    public String getNumCreditos() {
+    public double getNumCreditos() {
         return numCreditos;
     }
 
-    public void setNumCreditos(String numCreditos) {
+    public void setNumCreditos(double numCreditos) {
         this.numCreditos = numCreditos;
     }
 
-    public int getCupoMin() {
+    public double getCupoMin() {
         return cupoMin;
     }
 
-    public void setCupoMin(int cupoMin) {
+    public void setCupoMin(double cupoMin) {
         this.cupoMin = cupoMin;
     }
 
-    public int getCupoMax() {
+    public double getCupoMax() {
         return cupoMax;
     }
 
-    public void setCupoMax(int cupoMax) {
+    public void setCupoMax(double cupoMax) {
         this.cupoMax = cupoMax;
     }
 
